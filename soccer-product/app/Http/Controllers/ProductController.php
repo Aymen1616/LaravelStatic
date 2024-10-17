@@ -29,4 +29,12 @@ class ProductController extends Controller
         // Affiche la page "à propos"
         return view('about');
     }
+
+    public function contactForm(Request $request)
+    {
+        return view('contact', ['data' => $request]);
+    }
+
 }
+
+
