@@ -47,7 +47,7 @@
         </div>
     </nav>
         <!-- Header-->
-        <header class="bg-dark py-5" style="background-image: url('{{ asset('assets/img/messi.jfif') }}'); background-size: cover; background-position: center;">
+        <header class="bg-dark py-5" style="background-image: url('{{ asset('assets/img/1.jfif') }}'); background-size: cover; background-position: center;">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Vivez votre passion</h1>
@@ -63,14 +63,14 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/city.jpg') }}" alt="manchester city chandail" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <h5 class="fw-bolder">Man City</h5>
                                     <!-- Product price-->
-                                    $40.00 - $80.00
+                                     $80.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -84,12 +84,12 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/free.webp') }}" alt="chandail palestine" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <h5 class="fw-bolder">Palestine Home Kit</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -99,8 +99,8 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">$80.00</span>
+                                    $58.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -114,15 +114,15 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/croatie.jpg') }}" alt="croatie" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <h5 class="fw-bolder">Croatie Home Kit</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">$75.00</span>
+                                    $55.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -134,12 +134,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/ca.jfif') }}" alt="club africain home kit" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <h5 class="fw-bolder">Club Africain Kit</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -149,7 +149,7 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    $40.00
+                                    $120.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -163,15 +163,15 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/spain.jpg') }}" alt="spain home kit" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <h5 class="fw-bolder">Spain kit</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">$55.00</span>
+                                    $35.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -183,14 +183,14 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/brasil.jpg') }}" alt="brasil kit" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <h5 class="fw-bolder">Brasil kit</h5>
                                     <!-- Product price-->
-                                    $120.00 - $280.00
+                                    $120.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -204,12 +204,12 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/argentine.jfif') }}" alt="argentine kit" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <h5 class="fw-bolder">Argentine Kit</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -219,8 +219,8 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">$120.00</span>
+                                    $79.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -232,12 +232,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ asset('assets/img/marseille.jpg') }}" alt="Marseille kit" />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <h5 class="fw-bolder">Marseille home kit</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>

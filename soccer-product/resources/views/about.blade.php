@@ -2,7 +2,7 @@
 @section('title', 'About')
 @section('content')
         <!-- Page Header-->
-        <header class="bg-dark py-5" style="background-image: url('{{ asset('assets/img/messi.jfif') }}'); background-size: cover; background-position: center;">
+        <header class="bg-dark py-5" style="background-image: url('{{ asset('assets/img/capalestine.jpg') }}'); background-size: cover; background-position: center;">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Qui sommes nous</h1>
