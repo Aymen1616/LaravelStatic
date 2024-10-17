@@ -2,3 +2,7 @@
 composer create-project --prefer-dist laravel/laravel soccer-product "8.*"
 
 2.
+https://startbootstrap.com/previews/shop-homepage
+
+3.
+php artisan make:controller ProductController
